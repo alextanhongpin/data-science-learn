@@ -1,0 +1,1 @@
+open $(docker logs jupyter 2>&1 | grep http | head -n 1 | sed -n 's/.*token=//p' | awk '{print "http://127.0.0.1:8888/?token="$1}')
