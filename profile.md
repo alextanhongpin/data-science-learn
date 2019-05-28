@@ -55,6 +55,9 @@ What data can be obtained from the email?
 - first conversion event date and offer
 - average time on website
 - monthly website visits
+- most interacted features 
+- last accessed features 
+- customer loyalty since account creation
 
 # Social media
 
@@ -91,4 +94,47 @@ What data can be obtained from the email?
 - time in app
 - push message click-through rate
 - user preferences/attributes
+- what the users last searched for
+- the top features for user
 
+## Unified user profile
+
+- create a unified user profile for all users
+- store their actions and interactions per user
+- allow us to query their information and create a profile page that shows what the user likes, their last activity etc
+- gather analytics across different devices (tag mobile, desktop etc, getting their user agent)
+
+Types of first-party data:
+- website visits
+- application usage 
+- mobile app downloads/usage
+- customer satisfaction data (NPS, net promoter score)
+
+Types of second-party data:
+- registration data from a shared webinar
+- attendance data from a conference
+
+Types of third-party data
+- app-store data
+- intent data from a provider 
+- demographic data from a provider
+- technographic data from a provider
+- advertising data
+- customer reviews
+
+
+## Algorithms to explore
+
+- data mining algorithm, apriori
+- high-utility mining dataset http://data-mining.philippe-fournier-viger.com/introduction-high-utility-itemset-mining/
+- learning to rank
+- recommendation
+- clustering
+- topic modelling 
+- semantic similarity
+- profile attachment (create a set of personas with personality and attach the user to them)
+
+
+# References
+
+http://info.localytics.com/blog/learn-how-to-create-a-complete-customer-profile-using-data-in-7-steps
