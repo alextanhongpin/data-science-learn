@@ -1,5 +1,11 @@
 # Designing a customer profile
 
+Gather data not just for users that are using our app, but also potential leads.
+- can be divided into online/offline channels
+- online channels - data that is gathered from the usage of our web/app.
+- offline channels - data that is gathered from events (users that participated in our events), phone conversations (customer requests, support, enquiries), emails (interests from leads, most common topics)
+
+
 ## Demographic information
 
 - gender: female
