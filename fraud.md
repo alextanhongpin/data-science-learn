@@ -17,3 +17,12 @@ https://towardsdatascience.com/wondering-how-to-build-an-anomaly-detection-model
 https://github.com/shubhomoydas/ad_examples
 https://www.ritchieng.com/machine-learning-anomaly-detection/
 https://blog.floydhub.com/introduction-to-anomaly-detection-in-python/
+
+
+## Stream processing for real-time analysis
+
+https://medium.com/high-alpha/data-stream-processing-for-newbies-with-kafka-ksql-and-postgres-c30309cfaaf8
+https://www.infoq.com/articles/data-processing-redis-spark-streaming/
+
+
+Is there a way of returning partial scoring (think streaming). Say, for fraud detection, we usually want to find if a transaction is a fraud, but it may take day etc. Can we return the confidence score partially, and request data at the same time to improve the final score? We can use this in job applications too. Say, every step that the employer performed will be notified to the user, from receiving the application, initial screening, feedbacks etc will be delivered step by step to the end user.
