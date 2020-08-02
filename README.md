@@ -16,3 +16,11 @@ $ docker run -p 8888:8888 -v $PWD:/home/jovyan/work jupyter/base-notebook
 Mathematics for machine learning:
 
 https://mml-book.github.io/book/mml-book.pdf
+
+
+## Running tests in jupyter notebook/jupyter lab
+
+```python
+if __name__ == '__main__':
+    unittest.main(argv=['first-arg-is-ignored'], exit=False)
+```
