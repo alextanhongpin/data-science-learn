@@ -24,3 +24,9 @@ https://mml-book.github.io/book/mml-book.pdf
 if __name__ == '__main__':
     unittest.main(argv=['first-arg-is-ignored'], exit=False)
 ```
+
+## Jupyterlab error starting kernel
+
+```bash
+$ python -m ipykernel install --user
+```
