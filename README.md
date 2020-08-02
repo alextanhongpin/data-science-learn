@@ -30,3 +30,20 @@ if __name__ == '__main__':
 ```bash
 $ python -m ipykernel install --user
 ```
+
+
+## Jupyterlab shortcuts rename file
+
+```json
+{
+        "shortcuts": [
+            {
+                "command": "docmanager:rename",
+                "keys": [
+                    "Shift R"
+                ],
+                "selector": "body"
+            }
+        ]
+}
+```
