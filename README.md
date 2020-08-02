@@ -34,13 +34,14 @@ $ python -m ipykernel install --user
 
 ## Jupyterlab shortcuts rename file
 
+`Command + r` for renaming:
 ```json
 {
         "shortcuts": [
             {
                 "command": "docmanager:rename",
                 "keys": [
-                    "Shift R"
+                    "Accel R"
                 ],
                 "selector": "body"
             }
