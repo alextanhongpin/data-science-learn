@@ -48,3 +48,24 @@ $ python -m ipykernel install --user
         ]
 }
 ```
+
+## Jupyter running command with python variables
+
+```py
+name = 'john doe'
+!echo {name}
+```
+
+## Jupyter right way of installing modules
+
+Bad:
+```python
+!pip3 install module
+```
+
+Good:
+```python
+import sys
+!{sys.executable} -m pip install spacy
+!{sys.executable} -m spacy download en_core_web_sm
+```
