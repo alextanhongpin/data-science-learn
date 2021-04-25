@@ -69,3 +69,13 @@ import sys
 !{sys.executable} -m pip install spacy
 !{sys.executable} -m spacy download en_core_web_sm
 ```
+
+## Installing Jupytext
+
+Allows the notebook to be saved as markdown:
+```bash
+$ brew install jupyterlab
+$ pip install jupytext
+$ jupyter labextension install jupyterlab-jupytext
+```
+
