@@ -79,3 +79,5 @@ $ pip install jupytext
 $ jupyter labextension install jupyterlab-jupytext
 ```
 
+# Git
+https://www.wrighters.io/version-control-for-jupyter-notebooks/
