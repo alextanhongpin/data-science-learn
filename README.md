@@ -79,5 +79,8 @@ $ pip install jupytext
 $ jupyter labextension install jupyterlab-jupytext
 ```
 
+## Add code formatting for Jupyter
+https://jupyterlab-code-formatter.readthedocs.io/en/latest/
+
 # Git
 https://www.wrighters.io/version-control-for-jupyter-notebooks/
