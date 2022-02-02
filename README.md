@@ -84,3 +84,8 @@ https://jupyterlab-code-formatter.readthedocs.io/en/latest/
 
 # Git
 https://www.wrighters.io/version-control-for-jupyter-notebooks/
+
+### recommendation with dbscan
+
+https://www.datacamp.com/community/tutorials/dbscan-macroscopic-investigation-python
+
