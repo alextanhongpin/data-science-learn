@@ -89,3 +89,14 @@ https://www.wrighters.io/version-control-for-jupyter-notebooks/
 
 https://www.datacamp.com/community/tutorials/dbscan-macroscopic-investigation-python
 
+
+## Fetching CSV data from Github using Jupyter
+
+Useful for Google Colab/Kaggle:
+
+```
+!mkdir data
+!ls data
+!curl -L https://github.com/alextanhongpin/blueprints-for-text-analytics-python/blob/master/data/abcnews-date-text.csv.gz?raw=true -o data/abcnews-date-text.csv.gz
+import pandas as pd 
+```
