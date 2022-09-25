@@ -107,3 +107,10 @@ import pandas as pd
 !pip install ipympl
 %matplotlib widget
 ```
+
+Alternative, which is better:
+
+```
+import matplotlib.pyplot as plt
+plt.rcParams["figure.figsize"] = (20, 10)
+```
