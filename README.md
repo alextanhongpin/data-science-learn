@@ -100,3 +100,10 @@ Useful for Google Colab/Kaggle:
 !curl -L https://github.com/alextanhongpin/blueprints-for-text-analytics-python/blob/master/data/abcnews-date-text.csv.gz?raw=true -o data/abcnews-date-text.csv.gz
 import pandas as pd 
 ```
+
+## Jupyterlab Plot
+
+```
+!pip install ipympl
+%matplotlib widget
+```
