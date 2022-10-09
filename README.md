@@ -114,3 +114,10 @@ Alternative, which is better:
 import matplotlib.pyplot as plt
 plt.rcParams["figure.figsize"] = (20, 10)
 ```
+
+
+## Upgrade all pip modules
+
+```bash
+$ pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip3 install -U 
+```
