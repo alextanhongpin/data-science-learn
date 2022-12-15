@@ -5,3 +5,8 @@ Why do we need dummy classifier (e.g. `sklearn.dummy.DummyClassifier`?
 
 
 How to use the `sklearn.dummy.DummyClassifier`?
+
+
+## References
+
+https://towardsdatascience.com/why-using-a-dummy-classifier-is-a-smart-move-4a55080e3549
